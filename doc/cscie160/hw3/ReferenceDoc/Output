@@ -1,0 +1,184 @@
+Elevator Stopping at floor: 2
+Total passengers on Elevator before boarding passengers waiting on the floor: 1
+Elevator Details: 
+Current Floor: 2
+Total passengers on board after boarding: 1
+On Board Passengers {1=[], 2=[], 3=[C], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: UP
+Floor Details:
+FLOOR NUMBER: 2 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 2
+On Floor Passengers : [A, B]
+
+Elevator Stopping at floor: 3
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 3
+Total passengers on board after boarding: 2
+On Board Passengers {1=[], 2=[], 3=[], 4=[E], 5=[D], 6=[], 7=[]}
+Elevator's Direction: UP
+Floor Details:
+FLOOR NUMBER: 3 Total Passengers waiting after boarding: 2
+Passengers moving on the floor: 1
+On Floor Passengers : [C]
+
+Elevator Stopping at floor: 4
+Total passengers on Elevator before boarding passengers waiting on the floor: 1
+Elevator Details: 
+Current Floor: 4
+Total passengers on board after boarding: 1
+On Board Passengers {1=[], 2=[], 3=[], 4=[], 5=[D], 6=[], 7=[]}
+Elevator's Direction: UP
+Floor Details:
+FLOOR NUMBER: 4 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 1
+On Floor Passengers : [E]
+
+Elevator Stopping at floor: 5
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 5
+Total passengers on board after boarding: 2
+On Board Passengers {1=[], 2=[], 3=[], 4=[], 5=[], 6=[], 7=[H, I]}
+Elevator's Direction: UP
+Floor Details:
+FLOOR NUMBER: 5 Total Passengers waiting after boarding: 1
+Passengers moving on the floor: 1
+On Floor Passengers : [D]
+
+Elevator Stopping at floor: 6
+Total passengers on Elevator before boarding passengers waiting on the floor: 2
+Elevator Details: 
+Current Floor: 6
+Total passengers on board after boarding: 2
+On Board Passengers {1=[], 2=[], 3=[], 4=[], 5=[], 6=[], 7=[H, I]}
+Elevator's Direction: UP
+Floor Details:
+FLOOR NUMBER: 6 Total Passengers waiting after boarding: 4
+Passengers moving on the floor: 0
+On Floor Passengers : []
+
+Elevator Stopping at floor: 7
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 7
+Total passengers on board after boarding: 0
+On Board Passengers {1=[], 2=[], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: UP
+Floor Details:
+FLOOR NUMBER: 7 Total Passengers waiting after boarding: 5
+Passengers moving on the floor: 2
+On Floor Passengers : [H, I]
+
+---------------------------------------------------------------------------------------------------------------
+Elevator Stopping at floor: 7
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 7
+Total passengers on board after boarding: 5
+On Board Passengers {1=[Q], 2=[O, P, R, S], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 7 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 2
+On Floor Passengers : [H, I]
+
+Elevator Stopping at floor: 6
+Total passengers on Elevator before boarding passengers waiting on the floor: 5
+Elevator Details: 
+Current Floor: 6
+Total passengers on board after boarding: 9
+On Board Passengers {1=[Q, K, L, M, N], 2=[O, P, R, S], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 6 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 0
+On Floor Passengers : []
+
+Elevator Stopping at floor: 5
+Total passengers on Elevator before boarding passengers waiting on the floor: 9
+Elevator Details: 
+Current Floor: 5
+Total passengers on board after boarding: 10
+On Board Passengers {1=[Q, K, L, M, N], 2=[O, P, R, S], 3=[J], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 5 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 1
+On Floor Passengers : [D]
+
+Elevator Stopping at floor: 3
+Total passengers on Elevator before boarding passengers waiting on the floor: 9
+ELEVATOR IS AT ITS FULL CAPACITY
+Elevator Details: 
+Current Floor: 3
+Total passengers on board after boarding: 10
+On Board Passengers {1=[Q, K, L, M, N, F], 2=[O, P, R, S], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 3 Total Passengers waiting after boarding: 1
+Passengers moving on the floor: 2
+On Floor Passengers : [C, J]
+
+Elevator Stopping at floor: 2
+Total passengers on Elevator before boarding passengers waiting on the floor: 6
+Elevator Details: 
+Current Floor: 2
+Total passengers on board after boarding: 6
+On Board Passengers {1=[Q, K, L, M, N, F], 2=[], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 2 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 6
+On Floor Passengers : [A, B, O, P, R, S]
+
+Elevator Stopping at floor: 1
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 1
+Total passengers on board after boarding: 0
+On Board Passengers {1=[], 2=[], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 1 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 6
+On Floor Passengers : [Q, K, L, M, N, F]
+
+---------------------------------------------------------------------------------------------------------------
+Elevator Stopping at floor: 3
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 3
+Total passengers on board after boarding: 0
+On Board Passengers {1=[], 2=[], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: UP
+Floor Details:
+FLOOR NUMBER: 3 Total Passengers waiting after boarding: 1
+Passengers moving on the floor: 2
+On Floor Passengers : [C, J]
+
+---------------------------------------------------------------------------------------------------------------
+Elevator Stopping at floor: 3
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 3
+Total passengers on board after boarding: 1
+On Board Passengers {1=[], 2=[G], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 3 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 2
+On Floor Passengers : [C, J]
+
+Elevator Stopping at floor: 2
+Total passengers on Elevator before boarding passengers waiting on the floor: 0
+Elevator Details: 
+Current Floor: 2
+Total passengers on board after boarding: 0
+On Board Passengers {1=[], 2=[], 3=[], 4=[], 5=[], 6=[], 7=[]}
+Elevator's Direction: DOWN
+Floor Details:
+FLOOR NUMBER: 2 Total Passengers waiting after boarding: 0
+Passengers moving on the floor: 7
+On Floor Passengers : [A, B, O, P, R, S, G]
+

@@ -1,0 +1,45 @@
+Stopping at floor: 2
+Total passengers before boarding passengers waiting on the floor: 1
+Current Floor: 2 Total passangers on board: 1 Direction: UP
+FLOOR NUMBER: 2 Passengers waiting: 0 Passengers roaming on the floor: 2
+
+Stopping at floor: 3
+Total passengers before boarding passengers waiting on the floor: 0
+Current Floor: 3 Total passangers on board: 4 Direction: UP
+FLOOR NUMBER: 3 Passengers waiting: 0 Passengers roaming on the floor: 1
+
+Stopping at floor: 5
+Total passengers before boarding passengers waiting on the floor: 4
+Current Floor: 5 Total passangers on board: 7 Direction: UP
+FLOOR NUMBER: 5 Passengers waiting: 0 Passengers roaming on the floor: 0
+
+Stopping at floor: 6
+Total passengers before boarding passengers waiting on the floor: 7
+ELEVATOR IS AT ITS FULL CAPACITY
+Current Floor: 6 Total passangers on board: 10 Direction: UP
+FLOOR NUMBER: 6 Passengers waiting: 1 Passengers roaming on the floor: 0
+
+------------------------------------------------------------------------
+Stopping at floor: 6
+Total passengers before boarding passengers waiting on the floor: 10
+ELEVATOR IS AT ITS FULL CAPACITY
+Current Floor: 6 Total passangers on board: 10 Direction: DOWN
+FLOOR NUMBER: 6 Passengers waiting: 1 Passengers roaming on the floor: 0
+
+Stopping at floor: 1
+Total passengers before boarding passengers waiting on the floor: 0
+Current Floor: 1 Total passangers on board: 0 Direction: DOWN
+FLOOR NUMBER: 1 Passengers waiting: 0 Passengers roaming on the floor: 10
+
+------------------------------------------------------------------------
+Stopping at floor: 6
+Total passengers before boarding passengers waiting on the floor: 0
+Current Floor: 6 Total passangers on board: 1 Direction: UP
+FLOOR NUMBER: 6 Passengers waiting: 0 Passengers roaming on the floor: 0
+
+------------------------------------------------------------------------
+Stopping at floor: 1
+Total passengers before boarding passengers waiting on the floor: 0
+Current Floor: 1 Total passangers on board: 0 Direction: DOWN
+FLOOR NUMBER: 1 Passengers waiting: 0 Passengers roaming on the floor: 1
+

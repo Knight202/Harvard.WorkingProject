@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ATM-SIMULATION" default="dist" basedir=".">
+    <description>
+            Build file for Final Project
+    </description>
+<!-- setting properties for the build -->
+
+<property name="src" location="./cscie160/project"/>
+<property name="lib" location="lib"/>
+<property name="build" location="build"/>
+<property name="test" location="test"/>
+<property name="dist" location="dist"/>
+
+
+<target name="init">
+<!-- Create the build directory -->
+<mkdir dir="${build}"/>
+</target>
+
+<target name="compile" depends="init" description="source files compiling ">
+<!-- take the code from ${src} and compile it into ${build} -->
+<javac destdir="${build}" classpath="${lib}/junit-4.1.jar" includeantruntime="false" debug="on">
+<src path="${src}"/>
+</javac>
+</target>
+
+<target name="dist" depends="compile" description="distribution">
+<!-- Create distribution directory -->
+<mkdir dir="${dist}/lib"/>
+<jar jarfile="${dist}/lib/Project.jar" basedir="${build}" manifest="./myManifest.txt"/>
+</target>
+
+<target name="test" depends="dist" description="JUnit tests">
+<!-- Start the server process, spawning into a separate process -->
+<java classname="cscie160.project.BankServer" spawn="true" fork="true" classpath="${dist}/lib/Project.jar"></java>
+<mkdir dir="${build}/reports"/>
+<junit printsummary="yes" showoutput="yes">
+<classpath><pathelement location="${lib}/junit-4.1.jar"/><pathelement location="${dist}/lib/Project.jar"/>
+</classpath>
+</junit>
+</target>
+
+<target name="clean" description="delete all">
+<!-- Delete the ${build} and ${dist} directory --><delete dir="${build}"/>
+<delete dir="${dist}"/>
+</target>
+   
+</project>

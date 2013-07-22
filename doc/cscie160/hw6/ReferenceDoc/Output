@@ -1,0 +1,36 @@
+//Client side output//
+
+ATMProxy writing command to server: BALANCE
+Server returned: 0.0
+Balance: 0.0
+ Depositing: 1000
+ATMProxy writing command to server: DEPOSIT
+ATMProxy writing command to server: BALANCE
+Server returned: 1000.0
+Balance: 1000.0
+ Withdrawing: 250
+ATMProxy writing command to server: WITHDRAW
+ATMProxy writing command to server: BALANCE
+Server returned: 750.0
+Balance: 750.0
+ Withdrawing: 750
+ATMProxy writing command to server: WITHDRAW
+ATMProxy writing command to server: BALANCE
+Server returned: 0.0
+Balance: 0.0
+
+
+//Server side Output//
+
+Accepting clients now
+Account Created
+Client acquired on port #7777, reading from socket
+Accepting clients now
+Running request in  Thread 0(Thread[Thread-5,5,main]): 
+Running request in  Thread 1(Thread[Thread-5,5,main]): 
+Running request in  Thread 2(Thread[Thread-5,5,main]): 
+Running request in  Thread 3(Thread[Thread-5,5,main]): 
+Running request in  Thread 4(Thread[Thread-5,5,main]): 
+Running request in  Thread 5(Thread[Thread-5,5,main]): 
+Running request in  Thread 6(Thread[Thread-5,5,main]): 
+

@@ -1,0 +1,16 @@
+Initial Balances
+	Balance(0000001): 0.0
+	Balance(0000002): 100.0
+	Balance(0000003): 500.0
+
+	Depositting(0000001): 1000
+	Balance(0000001): 1000.0
+	Withdrawing(0000002): 100
+	Balance(0000002): 0.0
+	Depositting(0000003): 500
+	Balance(0000003): 1000.0
+
+	Final Balances
+	Balance(0000001): 1000.0
+	Balance(0000002): 0.0
+	Balance(0000003): 1000.0

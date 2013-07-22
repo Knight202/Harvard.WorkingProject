@@ -1,0 +1,28 @@
+//Client side output//
+
+ATMProxy writing command to server: BALANCE
+Server returned: 0.0
+Balance: 0.0
+ Depositing: 1000
+ATMProxy writing command to server: DEPOSIT
+ATMProxy writing command to server: BALANCE
+Server returned: 1000.0
+Balance: 1000.0
+ Withdrawing: 250
+ATMProxy writing command to server: WITHDRAW
+ATMProxy writing command to server: BALANCE
+Server returned: 750.0
+Balance: 750.0
+ Withdrawing: 750
+ATMProxy writing command to server: WITHDRAW
+ATMProxy writing command to server: BALANCE
+Server returned: 0.0
+Balance: 0.0
+
+//Server side Output//
+
+Account Created
+Accepting clients now
+Client acquired on port #1099, reading from socket
+done
+Client serviced

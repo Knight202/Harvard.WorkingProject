@@ -1,0 +1,34 @@
+ATM session started
+[Info]: Account is authenticated and added to the list 000001
+[Info]: Account is authenticated and added to the list 000002
+[Info]: Account is authenticated and added to the list 000003
+[Info]: Checking balance for account No: 1
+Balance(0000001): 0.0
+[Info]: Checking balance for account No: 2
+Balance(0000002): 100.0
+[Info]: Checking balance for account No: 3
+Balance(0000003): 500.0
+[Error]: Authentication failed for account 000001
+Failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie160.project.ATMException: [Error]: Authentication failed for account 000001
+[Info]: withdrawing 500.0 from account 2
+Failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie160.project.ATMException: []: Requested command execution is not permitted for account 000002: WITHDRAWAL
+[Info]: withdrawing 50.0 from account 1
+Failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie160.project.ATMException: Not enough amount in account
+[Info]: depositing 500.0 to account 1
+[Info]: depositing 100.0 to account 2
+[Info]: withdrawing 100.0 from account 1
+[Info]: withdrawing 300.0 from account 3
+[Info]: withdrawing 200.0 from account 1
+Failed as expected: java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	cscie160.project.ATMException: ATM is out of Cash
+[Info]: 100.0 will be transferred from account 1 to account 2
+[Info]: Checking balance for account No: 1
+Balance(0000001): 300.0
+[Info]: Checking balance for account No: 2
+Balance(0000002): 300.0
+[Info]: Checking balance for account No: 3
+Balance(0000003): 200.0
+ATM session ended
